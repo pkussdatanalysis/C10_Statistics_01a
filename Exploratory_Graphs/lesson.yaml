@@ -156,7 +156,7 @@
   Output: 同样，我们看到一个数据点大于18，一个在17和18之间，几个在16和17之间，两个在15和16之间，验证rug函数的输出。
 
 - Class: cmd_question
-  Output: 现在用3个参数重新运行hist，ppm作为其第一个，col等于“绿色”，参数break等于100。
+  Output: 现在用3个参数重新运行hist，ppm作为其第一个，col等于“绿色”，参数breaks等于100。
   CorrectAnswer: hist(ppm, col = "green", breaks = 100)
   AnswerTests: omnitest(correctExpr='hist(ppm, col = "green", breaks = 100)')
   Hint: 在命令提示符处输入hist（ppm，col =“green”，breaks = 100）。
